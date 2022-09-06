@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    runs-on: "php8.1 vendor/bin/phpunit"
+    runs-on: ubuntu-latest
     steps:
       - uses: franzliedke/gh-action-php@0.3.0
       
