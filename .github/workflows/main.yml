@@ -9,6 +9,5 @@ on:
 jobs:
   build:
     runs: "php8.1 vendor/bin/phpunit"
-    steps:
-      - uses: franzliedke/gh-action-php@0.3.0
+    uses: franzliedke/gh-action-php@0.3.0
 }
