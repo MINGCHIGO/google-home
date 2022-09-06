@@ -10,7 +10,5 @@ jobs:
   build:
     runs: "php8.1 vendor/bin/phpunit"
     steps:
-      - uses: actions/checkout@v3
-      - name: Run a one-line script
-        run: echo Hello, world!
+      - uses: franzliedke/gh-action-php@0.3.0
 }
