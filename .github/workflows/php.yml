@@ -9,7 +9,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      action "Run tests" {
-      uses = "franzliedke/gh-action-php@0.3.0"
-      runs = "php8.1 vendor/bin/phpunit"
-   }
+      uses: franzliedke/gh-action-php@0.3.0
+      
